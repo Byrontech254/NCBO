@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NAPA COMMUNITY BASED ORGANISATION</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* NAVBAR */
+nav {
+  background: #15803d;
+  padding: 15px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* HEADER */
+header {
+  background: green;
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+/* SECTIONS */
+section {
+  padding: 40px 15px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  background: #15803d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  gap: 15px;
+}
+@media(min-width:768px){
+  .grid-3 {
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+/* GALLERY */
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* STATS */
+.stats {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+  background: #15803d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* FORM */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #15803d;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#programs">Programs</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<header>
+  <h1>NAPA COMMUNITY BASED ORGANISATION</h1>
+  <p>Empowering Communities, Changing Lives</p>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h2>Welcome to NAPA CBO</h2>
+  <p>Improving lives through education, sustainability, and empowerment.</p>
+  <a href="#donate" class="btn">Support Us</a>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="card">
+    <h3>About Us</h3>
+    <p>NAPA Community Based Organisation is committed to fostering positive
+        change within local communities. Our programs focus on youth
+        empowerment, education support, environmental conservation, and health
+        awareness.</p>
+  </div>
+</section>
+
+<!-- PROGRAMS -->
+<section id="programs">
+  <h3>Our Programs</h3>
+  <div class="grid grid-3">
+    <div class="card">Youth Empowerment</div>
+    <div class="card">Education Support</div>
+    <div class="card">Environmental Conservation</div>
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section>
+  <h3>Our Impact</h3>
+  <div class="grid grid-3 stats">
+    <div class="card">500+ Youth Empowered</div>
+    <div class="card">200+ Families Supported</div>
+    <div class="card">10+ Projects Completed</div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section>
+  <h3>Gallery</h3>
+  <div class="grid grid-3 gallery">
+    <img src="https://via.placeholder.com/300">
+    <img src="https://via.placeholder.com/300">
+    <img src="https://via.placeholder.com/300">
+  </div>
+</section>
+
+<!-- TEAM -->
+<section>
+  <h3>Our Team</h3>
+  <div class="grid grid-3">
+    <div class="card">Director</div>
+    <div class="card">Coordinator</div>
+    <div class="card">Volunteer Lead</div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section>
+  <div class="card">
+    <h3>Testimonial</h3>
+    <p>"NAPA has transformed our community!"</p>
+  </div>
+</section>
+  </section>  <section>
+    <div class="card">
+      <h3>Our Address</h3>
+      <p>Magunga, Kenya</p>
+      <p>P.O. Box 18 - 40401</p>
+      <p>Email: info@napacbo.org</p>
+      <p>Phone: +254 717110970</p>
+    </div>
+<!-- MAP -->
+<section>
+  <h3>Our Location</h3>
+  <iframe 
+    src="https://maps.google.com/maps?q=magunga%20kenya&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    width="100%" height="250" style="border:0;">
+  </iframe>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="card">
+    <h3>Contact Us</h3>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message"></textarea>
+      <button>Send</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 NAPA CBO</p>
+</footer>
+
+</body>
+</html>
