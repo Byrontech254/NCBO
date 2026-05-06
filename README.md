@@ -27,7 +27,6 @@
   --shadow-lg:    0 20px 60px rgba(0,0,0,0.16);
   --transition:   0.35s cubic-bezier(0.22,0.61,0.36,1);
 }
-
 /* ── Reset ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
